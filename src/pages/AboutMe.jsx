@@ -2,13 +2,10 @@ export default function AboutMe() {
     return (
       <div>
         <h1>About Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        <p>Software engineer with almost 4 years of professional experience on Android, Java, PostgreSQL, Groovy and Grails. 
+           I also launched a full mobile android game as a personal project with thousands of downloads.
+           After a career break where I focused on being a full time mom, I'm ready to resume my career.
+           I'm looking for an environment where I can learn, be challenged, grow, build meaningful things and have fun.
         </p>
       </div>
     );
