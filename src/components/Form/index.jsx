@@ -19,6 +19,11 @@ function Form() {
     const inputType = target.name;
     const inputValue = target.value;
 
+    if (inputValue === '') {
+      setErrorMessage(`${inputType} is required`);
+      return;
+    }
+
     // Based on the input type, we set the state of either email, name, and message
 
     if (inputType === 'name') {
@@ -34,9 +39,13 @@ function Form() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or name is invalid');
+    // If any of the fields are empty, display an error message and return
+    if (!name) {
+      setErrorMessage('Name cannot be empty!');
+      return;
+    }
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
       return;
     }
     if (!message) {
@@ -61,6 +70,7 @@ function Form() {
           onChange={handleInputChange}
           type="name"
           placeholder="name"
+          required="true"
         />
         <input
           value={email}
@@ -68,6 +78,7 @@ function Form() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          required="true"
         />
         <input
           value={message}
@@ -75,6 +86,7 @@ function Form() {
           onChange={handleInputChange}
           type="message"
           placeholder="message"
+          required="true"
         />
         <button type="submit">
           Submit
