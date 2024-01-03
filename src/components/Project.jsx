@@ -7,6 +7,7 @@ function Project(props) {
      <div>
        <h3>{props.name}</h3>
        <p>{props.technologies} </p>
+       <a href={props.gitHubLink}>GitHub Repository</a>
      </div>
    </div>
   );

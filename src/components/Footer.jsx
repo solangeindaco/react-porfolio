@@ -1,7 +1,8 @@
-function Footer() {
+function Footer(props) {
   return (
     <footer>
-      <p>Footer</p>
+      <a href={props.gitHubLink}>GitHub Repository</a>
+      <a href={props.linkedinLink}>Linkedin</a>
     </footer>
   );
 }

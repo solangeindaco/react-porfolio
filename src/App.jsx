@@ -11,7 +11,10 @@ function App() {
       <main className="mx-3">
         <Outlet />
       </main>
-      <Footer />
+      <Footer 
+        linkedinLink="https://www.linkedin.com/in/solangeindaco"
+        gitHubLink="https://github.com/solangeindaco" 
+      />
     </>
   )
 }

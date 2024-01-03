@@ -12,6 +12,7 @@ export default function Portfolio() {
               technologies="HTML, CSS, Git"
               link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
               description="Digital marketing website"
+              gitHubLink="https://github.com/solangeindaco/horiseon-html-css-refactor-h1"
             />
           </li>
           <li>
@@ -21,6 +22,7 @@ export default function Portfolio() {
               technologies="HTML, CSS, Git, Javascript, Bulma, JQuery"
               link="https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"  
               description="Movies & Cocktail"
+              gitHubLink="https://github.com/ucb-allstars-project-1/movie-cocktail-combo"
             />
           </li>
           <li>
@@ -30,6 +32,7 @@ export default function Portfolio() {
               technologies="Javascript, Node.js, bootstrap"
               link="https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"  
               description="Recipe sharing"
+              gitHubLink="https://github.com/quar-tech/mvc-recipe-sharing"
             />
           </li>
           <li>
