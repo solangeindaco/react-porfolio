@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.developer-photo img{
+  /*Sets the height and width of the image */
+  max-width: 200px;
+  max-height: 200px;
+  /*Sets the margin at the bottom of the image */
+  margin-bottom: 25px;
+  /*Sets the background position of the image */
+  background-position: center;
+  /* Change the corner radius so the photo looks more round*/
+  border-radius: 65px 65px 65px 65px;
+  /* Adds shadow effec to the photo*/
+  box-shadow: 5px 5px 5px var(--photo-border-color);
+  /* Set line style of the border of the photo*/
+  border-style: solid;
+   /* Set the width of the border of the photo*/
+  border-width: 1px;
+  /* Set the color of the border of the photo*/
+  border-color: var(--photo-border-color);
+}
