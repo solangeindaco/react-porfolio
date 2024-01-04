@@ -2,10 +2,10 @@ import Nav from "./Nav";
 
 function Header() {
   return (
-    <div>
+    <header>
       <h1>Solange Indaco</h1>
       <Nav />
-    </div>
+    </header>
   );
 }
 

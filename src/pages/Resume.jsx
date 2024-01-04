@@ -2,6 +2,9 @@ export default function Resume() {
     return (
       <div>
         <h1>Resume</h1>
+          <a href="./src/assets/files/solange_indaco_resume.pdf" download>
+                resume
+          </a>     
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
