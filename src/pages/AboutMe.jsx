@@ -1,7 +1,7 @@
 const photoStyle = {
     float: 'left',
-    height: '200px',
-    width: '200px',
+    minHeight: '200px',
+    minWidth: '200px',
     margin: '25px',
   };
 export default function AboutMe() {

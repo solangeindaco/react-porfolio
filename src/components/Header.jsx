@@ -8,7 +8,7 @@ function Header() {
       flexDirection: 'row',
       alignItems: 'flex-center',
       justifyContent: 'space-between',
-      backgroundColor: '#697b7e',
+      backgroundColor: '#E5FCF5',
     }}
     >
       <h1>Solange Indaco</h1>

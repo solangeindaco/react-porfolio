@@ -4,8 +4,7 @@ export default function Portfolio() {
     return (
       <div>
         <h1>Porfolio</h1>
-        <ul>
-          <li>
+        <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project
               name="Digital marketing website"
               imagePath="./src/assets/images/social-media-marketing.jpg"
@@ -14,8 +13,6 @@ export default function Portfolio() {
               description="Digital marketing website"
               gitHubLink="https://github.com/solangeindaco/horiseon-html-css-refactor-h1"
             />
-          </li>
-          <li>
             <Project
               name="Movies & Cocktail"
               imagePath="./src/assets/images/movies-cocktails-combo.png"
@@ -24,8 +21,6 @@ export default function Portfolio() {
               description="Movies & Cocktail"
               gitHubLink="https://github.com/ucb-allstars-project-1/movie-cocktail-combo"
             />
-          </li>
-          <li>
             <Project
               name="Culinary Connect"
               imagePath="./src/assets/images/culinary-connect.png"
@@ -34,8 +29,6 @@ export default function Portfolio() {
               description="Recipe sharing"
               gitHubLink="https://github.com/quar-tech/mvc-recipe-sharing"
             />
-          </li>
-          <li>
             <Project
               name="Android Game"
               imagePath="./src/assets/images/log-game.png"
@@ -43,9 +36,8 @@ export default function Portfolio() {
               link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
               description="Android Game"
             />
-          </li>
           
-        </ul>
+        </div>
       </div>
     );
   }
