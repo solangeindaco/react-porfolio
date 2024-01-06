@@ -1,16 +1,14 @@
 import Nav from "./Nav";
 
+const style = {
+  fontFamily: 'helvetica',
+  backgroundColor: '#E5FCF5',
+}
+
+
 function Header() {
   return (
-    <header style={{
-      display: 'flex',
-      fontFamily: 'helvetica',
-      flexDirection: 'row',
-      alignItems: 'flex-center',
-      justifyContent: 'space-between',
-      backgroundColor: '#E5FCF5',
-    }}
-    >
+    <header className ="d-flex flex-row align-center justify-content-around" style={style}>
       <h1>Solange Indaco</h1>
       <Nav />
     </header>

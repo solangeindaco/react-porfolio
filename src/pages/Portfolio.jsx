@@ -7,7 +7,7 @@ export default function Portfolio() {
         <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project
               name="Digital marketing website"
-              imagePath="./src/assets/images/social-media-marketing.jpg"
+              imagePath="/src/assets/images/social-media-marketing.jpg"
               technologies="HTML, CSS, Git"
               link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
               description="Digital marketing website"
@@ -15,7 +15,7 @@ export default function Portfolio() {
             />
             <Project
               name="Movies & Cocktail"
-              imagePath="./src/assets/images/movies-cocktails-combo.png"
+              imagePath="/src/assets/images/movies-cocktails-combo.png"
               technologies="HTML, CSS, Git, Javascript, Bulma, JQuery"
               link="https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"  
               description="Movies & Cocktail"
@@ -23,7 +23,7 @@ export default function Portfolio() {
             />
             <Project
               name="Culinary Connect"
-              imagePath="./src/assets/images/culinary-connect.png"
+              imagePath="/src/assets/images/culinary-connect.png"
               technologies="Javascript, Node.js, bootstrap"
               link="https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"  
               description="Recipe sharing"
@@ -31,14 +31,14 @@ export default function Portfolio() {
             />
             <Project
               name="Android Game"
-              imagePath="./src/assets/images/log-game.png"
+              imagePath="/src/assets/images/log-game.png"
               technologies="Android, Java, Git, Android Studio"
               link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
               description="Android Game"
             />
             <Project
               name="Note Taker"
-              imagePath="./src/assets/images/note-taker.png"
+              imagePath="/src/assets/images/note-taker.png"
               technologies="Javascript, Express, Git, Heroku"
               link="https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"  
               description="Note Taker"
@@ -46,7 +46,7 @@ export default function Portfolio() {
             />
             <Project
               name="Text Editor"
-              imagePath="./src/assets/images/text-editor.png"
+              imagePath="/src/assets/images/text-editor.png"
               technologies="Javascript, Git, Webpack, PWA"
               link="https://github.com/solangeindaco/pwa-text-editor"  
               description="Text Editor"
