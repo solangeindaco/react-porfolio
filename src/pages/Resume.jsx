@@ -1,9 +1,11 @@
+import resumeFile from '../assets/files/solange_indaco_resume.pdf';
+
 export default function Resume() {
     return (
       <div>
         <h1>Resume</h1>
-          <p>Download my
-            <a href="./src/assets/files/solange_indaco_resume.pdf" download>
+          <p>Download my 
+            <a href={resumeFile} download>
                   resume
             </a> 
           </p>
