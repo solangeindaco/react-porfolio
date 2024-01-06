@@ -1,5 +1,13 @@
 import Project from "../components/Project";
 
+import socialMediaImage from "../assets/images/social-media-marketing.jpg";
+import moviesCocktailsImage from "../assets/images/movies-cocktails-combo.png";
+import culinaryConnectImage from "../assets/images/culinary-connect.png";
+import logGameImage from "../assets/images/log-game.png";
+import noteTakerImage from "../assets/images/note-taker.png";
+import textEditorImage from "../assets/images/text-editor.png";
+
+
 export default function Portfolio() {
     return (
       <div>
@@ -7,7 +15,7 @@ export default function Portfolio() {
         <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project
               name="Digital marketing website"
-              imagePath="/src/assets/images/social-media-marketing.jpg"
+              imagePath={socialMediaImage}
               technologies="HTML, CSS, Git"
               link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
               description="Digital marketing website"
@@ -15,7 +23,7 @@ export default function Portfolio() {
             />
             <Project
               name="Movies & Cocktail"
-              imagePath="/src/assets/images/movies-cocktails-combo.png"
+              imagePath={moviesCocktailsImage}
               technologies="HTML, CSS, Git, Javascript, Bulma, JQuery"
               link="https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"  
               description="Movies & Cocktail"
@@ -23,7 +31,7 @@ export default function Portfolio() {
             />
             <Project
               name="Culinary Connect"
-              imagePath="/src/assets/images/culinary-connect.png"
+              imagePath={culinaryConnectImage}
               technologies="Javascript, Node.js, bootstrap"
               link="https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"  
               description="Recipe sharing"
@@ -31,14 +39,14 @@ export default function Portfolio() {
             />
             <Project
               name="Android Game"
-              imagePath="/src/assets/images/log-game.png"
+              imagePath={logGameImage}
               technologies="Android, Java, Git, Android Studio"
               link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
               description="Android Game"
             />
             <Project
               name="Note Taker"
-              imagePath="/src/assets/images/note-taker.png"
+              imagePath={noteTakerImage}
               technologies="Javascript, Express, Git, Heroku"
               link="https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"  
               description="Note Taker"
@@ -46,7 +54,7 @@ export default function Portfolio() {
             />
             <Project
               name="Text Editor"
-              imagePath="/src/assets/images/text-editor.png"
+              imagePath={textEditorImage}
               technologies="Javascript, Git, Webpack, PWA"
               link="https://github.com/solangeindaco/pwa-text-editor"  
               description="Text Editor"
