@@ -41,6 +41,12 @@
   color: #888;
 }
 
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
 .developer-photo img{
   /*Sets the height and width of the image */
   max-width: 200px;

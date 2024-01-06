@@ -36,6 +36,22 @@ export default function Portfolio() {
               link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
               description="Android Game"
             />
+            <Project
+              name="Note Taker"
+              imagePath="./src/assets/images/note-taker.png"
+              technologies="Javascript, Express, Git, Heroku"
+              link="https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"  
+              description="Note Taker"
+              gitHubLink="https://github.com/solangeindaco/express-note-taker"
+            />
+            <Project
+              name="Text Editor"
+              imagePath="./src/assets/images/text-editor.png"
+              technologies="Javascript, Git, Webpack, PWA"
+              link="https://github.com/solangeindaco/pwa-text-editor"  
+              description="Text Editor"
+              gitHubLink="https://pwa-text-editor-dhr3.onrender.com"
+            />
           
         </div>
       </div>

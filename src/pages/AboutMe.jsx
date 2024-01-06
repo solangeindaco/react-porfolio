@@ -1,13 +1,13 @@
 const photoStyle = {
     float: 'left',
-    minHeight: '200px',
-    minWidth: '200px',
+    height: '200px',
+    width: '200px',
     margin: '25px',
   };
 export default function AboutMe() {
     return (
       <div>
-        <h1>About Page</h1>
+        <h1>About Me</h1>
         <img style={photoStyle} src="./src/assets/images/me-photo.jpg" alt="Solange Indaco" />
         <p>Software engineer with almost 4 years of professional experience on Android, Java, PostgreSQL, Groovy and Grails. 
            I also launched a full mobile android game as a personal project with thousands of downloads.
