@@ -8,7 +8,7 @@ const style = {
 
 function Header() {
   return (
-    <header className ="d-flex flex-row align-center justify-content-around" style={style}>
+    <header className ="h-50 d-flex flex-row align-center justify-content-around align-items-center" style={style}>
       <h1>Solange Indaco</h1>
       <Nav />
     </header>
