@@ -70,7 +70,7 @@ function Form() {
           onChange={handleInputChange}
           type="name"
           placeholder="name"
-          required="true"
+          required={true}
         />
         <input
           value={email}
@@ -78,7 +78,7 @@ function Form() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-          required="true"
+          required={true}
         />
         <input
           value={message}
@@ -86,7 +86,7 @@ function Form() {
           onChange={handleInputChange}
           type="message"
           placeholder="message"
-          required="true"
+          required={true}
         />
         <button type="submit">
           Submit
