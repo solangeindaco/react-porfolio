@@ -3,16 +3,12 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom'
 
-const style = {
-  backgroundColor: "#FEFFFE",
-};
-
 function App() {
 
   return (
     <>
       <Header />
-      <main style={style} className="container">
+      <main className="container">
         <Outlet />
       </main>
       <Footer 
