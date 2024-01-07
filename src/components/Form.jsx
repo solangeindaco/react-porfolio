@@ -66,10 +66,9 @@ function Form() {
   };
 
   return (
-    <div className="d-flex flex-column justify-content-start">
+    <div>
       <form onSubmit={handleFormSubmit}>
         <div className="form-group">
-          <label className='form-label'>Name</label>
           <input
             value={name}
             name="name"
@@ -81,7 +80,6 @@ function Form() {
           />
         </div>
         <div className="form-group">
-          <label className='form-label'>Email address</label>
           <input
             value={email}
             name="email"
@@ -93,7 +91,6 @@ function Form() {
           />
         </div>
         <div className="form-group">
-          <label className='form-label'>Message</label>
           <textarea
             value={message}
             name="message"
@@ -105,7 +102,7 @@ function Form() {
             rows='4'
           />
         </div>
-        <button type="submit" style={btnStyle} className="btn m-2">
+        <button type="submit" style={btnStyle} className="btn m-2 align-self-start">
           Submit
         </button>
       </form>

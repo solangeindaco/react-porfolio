@@ -1,5 +1,5 @@
-#root {
-  text-align: center;
+:root {
+  --brown-purple: #3D2B3D;; 
 }
 
 body {
@@ -45,5 +45,6 @@ body {
 h1 {
   font-family: 'Lumanosimo', 'sans-serif';
   font-size: 1.5em;
-  color: #3D2B3D;
+  color: var(--brown-purple);
+  margin-top: 1em;
 }
