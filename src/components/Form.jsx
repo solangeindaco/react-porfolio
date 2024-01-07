@@ -3,6 +3,11 @@ import { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 
+const btnStyle = {
+  backgroundColor: '#AA6DA3',
+  borderColor: '#AA6DA3',
+}
+
 function Form() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
@@ -100,7 +105,7 @@ function Form() {
             rows='4'
           />
         </div>
-        <button type="submit" className="btn btn-primary m-2">
+        <button type="submit" style={btnStyle} className="btn m-2">
           Submit
         </button>
       </form>

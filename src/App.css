@@ -43,5 +43,7 @@ body {
 }
 
 h1 {
+  font-family: 'Lumanosimo', 'sans-serif';
+  font-size: 1.5em;
   color: #3D2B3D;
 }

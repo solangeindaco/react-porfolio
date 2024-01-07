@@ -9,7 +9,7 @@ export default function Resume() {
                 resume
           </a> 
         </p>
-        <h5>Front-end Proficiencies</h5>
+        <h6>Front-end Proficiencies</h6>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -19,7 +19,7 @@ export default function Resume() {
             <li>React</li>
             <li>Bootstrap</li>
           </ul>
-        <h5>Back-end Proficiencies</h5>
+        <h6>Back-end Proficiencies</h6>
           <ul>
             <li>APIs</li>
             <li>Node</li>
