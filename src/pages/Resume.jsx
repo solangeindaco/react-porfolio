@@ -2,14 +2,14 @@ import resumeFile from '../assets/files/solange_indaco_resume.pdf';
 
 export default function Resume() {
     return (
-      <div>
+      <div className="d-flex flex-column justify-content-start text-start">
         <h1>Resume</h1>
-          <p>Download my 
-            <a href={resumeFile} download>
-                  resume
-            </a> 
-          </p>
-        <h1>Front-end Proficiencies</h1>
+        <p>Download my &nbsp;
+          <a href={resumeFile} download>
+                resume
+          </a> 
+        </p>
+        <h5>Front-end Proficiencies</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -19,7 +19,7 @@ export default function Resume() {
             <li>React</li>
             <li>Bootstrap</li>
           </ul>
-        <h1>Back-end Proficiencies</h1>
+        <h5>Back-end Proficiencies</h5>
           <ul>
             <li>APIs</li>
             <li>Node</li>
