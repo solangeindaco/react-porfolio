@@ -63,8 +63,8 @@ function Form() {
   return (
     <div className="d-flex flex-column justify-content-start">
       <form onSubmit={handleFormSubmit}>
-        <div class="form-group">
-          <label className='text-left'>Name</label>
+        <div className="form-group">
+          <label className='form-label'>Name</label>
           <input
             value={name}
             name="name"
@@ -75,8 +75,8 @@ function Form() {
             className='form-control'
           />
         </div>
-        <div class="form-group">
-          <label>Email address</label>
+        <div className="form-group">
+          <label className='form-label'>Email address</label>
           <input
             value={email}
             name="email"
@@ -87,8 +87,8 @@ function Form() {
             className='form-control'
           />
         </div>
-        <div class="form-group">
-          <label>Message</label>
+        <div className="form-group">
+          <label className='form-label'>Message</label>
           <textarea
             value={message}
             name="message"
@@ -100,7 +100,7 @@ function Form() {
             rows='4'
           />
         </div>
-        <button type="submit" class="btn btn-primary m-2">
+        <button type="submit" className="btn btn-primary m-2">
           Submit
         </button>
       </form>

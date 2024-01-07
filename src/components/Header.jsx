@@ -6,6 +6,7 @@ const style = {
 }
 
 const nameStyle = {
+  fontFamily: 'Marck Script',
   fontSize: '2em',
   color: '#3D2B3D',
 } 
