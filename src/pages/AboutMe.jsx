@@ -3,10 +3,10 @@ import mePhoto from '../assets/images/me-photo.jpg';
 
 export default function AboutMe() {
     return (
-      <div className='w-100 d-flex flex-row align-center justify-content-around align-items-center'>
-        <div className='d-flex flex-column justify-content-center align-items-center'>
+      <div className='d-flex flex-row align-items-center justify-content-betweem'>
+        <div className="d-flex flex-column align-items-start">
           <h1>About Me</h1>
-          <img className="w-25 h-25 d-inline-block rounded-circle float-left" src={mePhoto} alt="Solange Indaco" />
+          <img className="w-25 h-25 rounded-circle" src={mePhoto} alt="Solange Indaco" />
         </div>
         <p>Software engineer with almost 4 years of professional experience on Android, Java, PostgreSQL, Groovy and Grails. 
            I also launched a full mobile android game as a personal project with thousands of downloads.

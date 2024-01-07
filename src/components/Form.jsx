@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import './style.css';
 
 // Here we import a helper function that will check if the email is valid
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 function Form() {
   // Create state variables for the fields in the form
@@ -62,39 +61,52 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
-      <form className="form" onSubmit={handleFormSubmit}>
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="name"
-          placeholder="name"
-          required={true}
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-          required={true}
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="message"
-          required={true}
-        />
-        <button type="submit">
+    <div className="d-flex flex-column justify-content-start">
+      <form onSubmit={handleFormSubmit}>
+        <div class="form-group">
+          <label className='text-left'>Name</label>
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="name"
+            placeholder="name"
+            required={true}
+            className='form-control'
+          />
+        </div>
+        <div class="form-group">
+          <label>Email address</label>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+            required={true}
+            className='form-control'
+          />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="message"
+            placeholder="message"
+            required={true}
+            className='form-control'
+            rows='4'
+          />
+        </div>
+        <button type="submit" class="btn btn-primary m-2">
           Submit
         </button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text m-3">{errorMessage}</p>
         </div>
       )}
     </div>

@@ -10,7 +10,7 @@ import textEditorImage from "../assets/images/text-editor.png";
 
 export default function Portfolio() {
     return (
-      <div>
+      <div className="d-flex flex-column align-items-start">
         <h1>Porfolio</h1>
         <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project

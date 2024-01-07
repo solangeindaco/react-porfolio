@@ -1,5 +1,5 @@
 const style = {
-  backgroundColor: "#B3DEC1",
+  backgroundColor: "#AA6DA3",
 };
 
 function Footer(props) {
