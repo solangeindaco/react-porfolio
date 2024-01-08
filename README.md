@@ -4,39 +4,45 @@
 
 ## Description
 
-I build a text editor that runs in the browser. The is a single-page application that meets the Progressive Web Application criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also function offline.
-
-To build this text editor, I used a started code from a Booting camp course. And I implemented methods for getting and storing data to an IndexedDB database. This full-stack application is deployed to Render.
+I build this React app to learn about REACT as part of a bootcamp coding course.
  
 I learn:  
-    - how to set up webpack dependencies in an application using npm scripts. 
-    - how to create a bundle and use it to provide interaction for a webpage. 
-    - how to execute a full-stack application with a server and client-side development server.  
-    - how to implement IndexedDB inside of a JavaScript application.
-    - how deploy a PWA to Render
+    - how to create a single-page application (SPA) using React.     
+    - how to use React components, manage application state, and pass data throughout your app.     
+    - how to use React Router to add dynamic client-side routing to apps.  
+    - how to use React Forms.
+    - how deploy to Netlify.
+    - how to use Vite.
 
 ## Installation
 
-Repository URL: https://github.com/solangeindaco/react-porfolio 
+Repository URL: https://github.com/solangeindaco/react-porfolio    
 Deployed application: https://solange-indaco-porfolio.netlify.app/   
 
 ## Usage
 
-The following video shows the text editor application's appearance and functionality:
+The following images shows the portfolio's appearance:
 
-[Text editor video](https://drive.google.com/file/d/13PquN7k8qYmAvjApOiOZyj7rTFlFC0Pf/view)
+![React portfolio image1](/src/assets/images/screenshot1.png)
+
+![React portfolio image1](/src/assets/images/screenshot2.png)
+
+![React portfolio image1](/src/assets/images/screenshot3.png)
+
+
+![React portfolio image1](/src/assets/images/screenshot4.png)
 
 
 ## Credits
 
-To create this application, I used the following tutorials:    
-    - PWA: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps       
-    - Webpack: https://webpack.js.org/concepts/             
-    - Webpack plugin: https://webpack.js.org/plugins/html-webpack-plugin/         
-    - Service workers: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API    
-    - IndexedDB API: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API 
-    - idb: https://www.npmjs.com/package/idb        
-    - Render: https://docs.insomnia.rest/insomnia/get-started                                                                       
+To create this web application, I used the following tutorials and libraries:    
+    - React: https://react.dev/learn     
+    - Vite: https://vitejs.dev/     
+    - Netlify: https://www.netlify.com/                
+    - Coolors: https://coolors.co/                    
+    - Google Fonts: https://fonts.google.com/        
+    - Bootstrap: https://getbootstrap.com/          
+                                                                           
 
 ## License
 

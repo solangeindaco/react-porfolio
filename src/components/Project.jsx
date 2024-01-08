@@ -6,9 +6,9 @@ function Project(props) {
       <a href={props.link}>
         <img className= "img-thumbnail" src={props.imagePath} alt={props.description} />
       </a>
-      <div>
-        <h3>{props.name}</h3>
-        <p>{props.technologies} </p>
+      <div className="card-body">
+        <h3 className="card-title">{props.name}</h3>
+        <p className="card-text">{props.technologies} </p>
         <GitHubLink gitHubLink={props.gitHubLink} />
       </div>
    </div>

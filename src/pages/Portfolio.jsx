@@ -14,14 +14,6 @@ export default function Portfolio() {
         <h1>Porfolio</h1>
         <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project
-              name="Digital marketing website"
-              imagePath={socialMediaImage}
-              technologies="HTML, CSS, Git"
-              link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
-              description="Digital marketing website"
-              gitHubLink="https://github.com/solangeindaco/horiseon-html-css-refactor-h1"
-            />
-            <Project
               name="Movies & Cocktail"
               imagePath={moviesCocktailsImage}
               technologies="HTML, CSS, Git, Javascript, Bulma, JQuery"
@@ -59,6 +51,14 @@ export default function Portfolio() {
               link="https://github.com/solangeindaco/pwa-text-editor"  
               description="Text Editor"
               gitHubLink="https://pwa-text-editor-dhr3.onrender.com"
+            />
+            <Project
+              name="Digital marketing website"
+              imagePath={socialMediaImage}
+              technologies="HTML, CSS, Git"
+              link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
+              description="Digital marketing website"
+              gitHubLink="https://github.com/solangeindaco/horiseon-html-css-refactor-h1"
             />
           
         </div>
