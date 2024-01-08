@@ -14,6 +14,7 @@ function App() {
       <Footer 
         linkedinLink="https://www.linkedin.com/in/solangeindaco"
         gitHubLink="https://github.com/solangeindaco" 
+        stackOverflowLink="https://stackoverflow.com/users/23214335/solange-indaco"
       />
     </>
   )
