@@ -48,9 +48,9 @@ export default function Portfolio() {
               name="Text Editor"
               imagePath={textEditorImage}
               technologies="Javascript, Git, Webpack, PWA"
-              link="https://github.com/solangeindaco/pwa-text-editor"  
+              link="https://pwa-text-editor-dhr3.onrender.com"  
               description="Text Editor"
-              gitHubLink="https://pwa-text-editor-dhr3.onrender.com"
+              gitHubLink="https://github.com/solangeindaco/pwa-text-editor"
             />
             <Project
               name="Digital marketing website"

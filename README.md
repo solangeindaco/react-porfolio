@@ -10,8 +10,8 @@ I learn:
     - how to create a single-page application (SPA) using React.     
     - how to use React components, manage application state, and pass data throughout your app.     
     - how to use React Router to add dynamic client-side routing to apps.  
-    - how to use React Forms.
-    - how deploy to Netlify.
+    - how to use React Forms.    
+    - how deploy to Netlify.    
     - how to use Vite.
 
 ## Installation
@@ -28,7 +28,6 @@ The following images shows the portfolio's appearance:
 ![React portfolio image1](/src/assets/images/screenshot2.png)
 
 ![React portfolio image1](/src/assets/images/screenshot3.png)
-
 
 ![React portfolio image1](/src/assets/images/screenshot4.png)
 

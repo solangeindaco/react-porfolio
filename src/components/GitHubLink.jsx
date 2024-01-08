@@ -2,7 +2,7 @@ const aStyle = {
     color: "#3D2B3D",
 };
 
-function gitHubLink(props){
+function GitHubLink(props){
     return (
         <a href={props.gitHubLink} style={aStyle}>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
@@ -12,4 +12,4 @@ function gitHubLink(props){
     );
 };
 
-export default gitHubLink;
+export default GitHubLink;
