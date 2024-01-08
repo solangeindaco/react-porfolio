@@ -1,11 +1,15 @@
 import resumeFile from '../assets/files/solange_indaco_resume.pdf';
 
+const aStyle = {
+  color: "#3D2B3D",
+};
+
 export default function Resume() {
     return (
       <div className="d-flex flex-column justify-content-start text-start">
         <h1>Resume</h1>
         <p>Download my &nbsp;
-          <a href={resumeFile} download>
+          <a style={aStyle} href={resumeFile} download>
                 resume
           </a> 
         </p>

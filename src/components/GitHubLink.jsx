@@ -1,5 +1,6 @@
 const aStyle = {
     color: "#3D2B3D",
+    margin: "0.5em 2em 0.5em 2em",
 };
 
 function gitHubLink(props){
