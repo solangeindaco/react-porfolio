@@ -9,7 +9,8 @@ function Project(props) {
       <div className="card-body">
         <h3 className="card-title">{props.name}</h3>
         <p className="card-text">{props.technologies} </p>
-        <GitHubLink gitHubLink={props.gitHubLink} />
+        { (props.gitHubLink) ? <GitHubLink gitHubLink={props.gitHubLink} /> : null }
+        
       </div>
    </div>
   );

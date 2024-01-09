@@ -11,7 +11,7 @@ const style = {
 
 function Footer(props) {
   return (
-    <footer style={style} className="d-flex flex-row align-center justify-content-center align-items-center fixed-bottom">
+    <footer style={style} className="d-flex flex-row align-center justify-content-center align-items-center mt-auto fixed-bottom">
       <div className="w-50 d-flex flex-row align-center justify-content-center align-items-center">
         <a href={props.linkedinLink} style={aStyle}>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

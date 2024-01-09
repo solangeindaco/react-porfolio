@@ -14,14 +14,6 @@ export default function Portfolio() {
         <h1>Porfolio</h1>
         <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project
-              name="Movies & Cocktail"
-              imagePath={moviesCocktailsImage}
-              technologies="HTML, CSS, Git, Javascript, Bulma, JQuery"
-              link="https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"  
-              description="Movies & Cocktail"
-              gitHubLink="https://github.com/ucb-allstars-project-1/movie-cocktail-combo"
-            />
-            <Project
               name="Culinary Connect"
               imagePath={culinaryConnectImage}
               technologies="Javascript, Node.js, bootstrap"
@@ -30,19 +22,20 @@ export default function Portfolio() {
               gitHubLink="https://github.com/quar-tech/mvc-recipe-sharing"
             />
             <Project
-              name="Android Game"
-              imagePath={logGameImage}
-              technologies="Android, Java, Git, Android Studio"
-              link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
-              description="Android Game"
+              name="Movies & Cocktail"
+              imagePath={moviesCocktailsImage}
+              technologies="HTML, CSS, Git, Javascript, Bulma, JQuery"
+              link="https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"  
+              description="Movies & Cocktail"
+              gitHubLink="https://github.com/ucb-allstars-project-1/movie-cocktail-combo"
             />
             <Project
-              name="Note Taker"
-              imagePath={noteTakerImage}
-              technologies="Javascript, Express, Git, Heroku"
-              link="https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"  
-              description="Note Taker"
-              gitHubLink="https://github.com/solangeindaco/express-note-taker"
+              name="Digital marketing website"
+              imagePath={socialMediaImage}
+              technologies="HTML, CSS, Git"
+              link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
+              description="Digital marketing website"
+              gitHubLink="https://github.com/solangeindaco/horiseon-html-css-refactor-h1"
             />
             <Project
               name="Text Editor"
@@ -53,14 +46,20 @@ export default function Portfolio() {
               gitHubLink="https://github.com/solangeindaco/pwa-text-editor"
             />
             <Project
-              name="Digital marketing website"
-              imagePath={socialMediaImage}
-              technologies="HTML, CSS, Git"
-              link="https://solangeindaco.github.io/horiseon-html-css-refactor-h1/"  
-              description="Digital marketing website"
-              gitHubLink="https://github.com/solangeindaco/horiseon-html-css-refactor-h1"
+              name="Note Taker"
+              imagePath={noteTakerImage}
+              technologies="Javascript, Express, Git, Heroku"
+              link="https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"  
+              description="Note Taker"
+              gitHubLink="https://github.com/solangeindaco/express-note-taker"
+            /> 
+            <Project
+              name="Android Game"
+              imagePath={logGameImage}
+              technologies="Android, Java, Git, Android Studio"
+              link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
+              description="Android Game"
             />
-          
         </div>
       </div>
     );

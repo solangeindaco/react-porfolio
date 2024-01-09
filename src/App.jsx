@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 function App() {
 
   return (
-    <>
+    <div>
       <Header />
       <main className="container">
         <Outlet />
@@ -16,7 +16,7 @@ function App() {
         gitHubLink="https://github.com/solangeindaco" 
         stackOverflowLink="https://stackoverflow.com/users/23214335/solange-indaco"
       />
-    </>
+    </div>
   )
 }
 
