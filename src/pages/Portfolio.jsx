@@ -17,7 +17,7 @@ export default function Portfolio() {
             <Project
               name="Full Stack Service App"
               imagePath={skillMagnet}
-              technologies="React, Javascript, MongoDB, Node.js, Git, Render"
+              technologies="React, Javascript, MongoDB, Node.js, Git, Netlify"
               link="https://full-stack-service-app.onrender.com/"  
               description="Full Stack Service App"
               gitHubLink="https://github.com/quin-tech/full-stack-service-app"
