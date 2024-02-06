@@ -6,6 +6,7 @@ import culinaryConnectImage from "../assets/images/culinary-connect.png";
 import logGameImage from "../assets/images/log-game.png";
 import noteTakerImage from "../assets/images/note-taker.png";
 import textEditorImage from "../assets/images/text-editor.png";
+import skillMagnet from "../assets/images/skill-magnet.png";
 
 
 export default function Portfolio() {
@@ -13,6 +14,14 @@ export default function Portfolio() {
       <div className="d-flex flex-column align-items-start">
         <h1>Porfolio</h1>
         <div className="d-flex flex-row flex-wrap justify-content-around">
+            <Project
+              name="Full Stack Service App"
+              imagePath={skillMagnet}
+              technologies="React, Javascript, MongoDB, Node.js, Git, Render"
+              link="https://full-stack-service-app.onrender.com/"  
+              description="Full Stack Service App"
+              gitHubLink="https://github.com/quin-tech/full-stack-service-app"
+            />
             <Project
               name="Culinary Connect"
               imagePath={culinaryConnectImage}
@@ -60,14 +69,7 @@ export default function Portfolio() {
               link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
               description="Android Game"
             />
-            <Project
-              name="Android Game"
-              imagePath={logGameImage}
-              technologies="React, Javascript, MongoDB, Node.js, Git, Heroku"
-              link="https://full-stack-service-app.onrender.com/"  
-              description="Full Stack Service App"
-              gitHubLink="https://github.com/quin-tech/full-stack-service-app"
-            />
+            
         </div>
       </div>
     );
