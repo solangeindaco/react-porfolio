@@ -60,6 +60,14 @@ export default function Portfolio() {
               link="https://play.google.com/store/apps/details?id=com.solange.pipedreamer.full"  
               description="Android Game"
             />
+            <Project
+              name="Android Game"
+              imagePath={logGameImage}
+              technologies="React, Javascript, MongoDB, Node.js, Git, Heroku"
+              link="https://full-stack-service-app.onrender.com/"  
+              description="Full Stack Service App"
+              gitHubLink="https://github.com/quin-tech/full-stack-service-app"
+            />
         </div>
       </div>
     );
