@@ -12,7 +12,7 @@ import skillMagnet from "../assets/images/skill-magnet.png";
 export default function Portfolio() {
     return (
       <div className="d-flex flex-column align-items-start">
-        <h1>Porfolio</h1>
+        <h1>Portfolio</h1>
         <div className="d-flex flex-row flex-wrap justify-content-around">
             <Project
               name="Full Stack Service App"
