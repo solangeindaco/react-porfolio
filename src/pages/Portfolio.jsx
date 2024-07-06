@@ -58,7 +58,7 @@ export default function Portfolio() {
               name="Note Taker"
               imagePath={noteTakerImage}
               technologies="Javascript, Express, Git, Heroku"
-              link="https://exs-note-taker-1e8b2846d5cf.herokuapp.com/"  
+              link="https://express-note-taker-1odq.onrender.com"  
               description="Note Taker"
               gitHubLink="https://github.com/solangeindaco/express-note-taker"
             /> 
