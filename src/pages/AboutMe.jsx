@@ -20,13 +20,14 @@ export default function AboutMe() {
           <img style={photoStyle} className="w-25 h-25 rounded-circle" src={mePhoto} alt="Solange Indaco" />
         </div>
         <p> 
-            After completing an intensive Full Stack Web Development bootcamp at UC Berkeley Extension, 
-            I'm eager to reenter the workforce and reignite my passion for coding. With nearly four years of prior experience as a software engineer, 
-            my expertise lies in Java development, web application development, and Android mobile app development.
-            During the bootcamp, I updated my skills by developing various web applications using JavaScript, React, Bootstrap, and Node.js, 
-            and seamlessly deploying them on platforms like Heroku, Render, and Netlify. 
-            I thrive in collaborative environments and effectively engage in online teamwork using GitHub and Slack. 
-            Ready to contribute my expertise to innovative projects and teams.
+            Excited to take the next step in my return to the tech industry after a career break to care for my children. 
+            I recently completed the Microsoft Leap Apprenticeship Program, where I had the opportunity to contribute 
+            remotely to a cloud-based project, enhancing my skills in modern software development practices.
+            Prior to that, I completed an intensive Full Stack Web Development bootcamp through UC Berkeley Extension,
+            further expanding my technical toolkit. I bring nearly four years of professional experience as a software 
+            engineer, with a foundation in Java, web application development, and Android mobile app development. 
+            I'm now actively looking for new opportunities where I can bring my skills, experience, and fresh perspective
+            to a collaborative engineering team.
         </p>
       </div>
     );
