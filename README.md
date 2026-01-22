@@ -16,8 +16,8 @@ I learn:
 
 ## Installation
 
-Repository URL: https://github.com/solangeindaco/react-portfolio    
-Deployed application: https://solange-indaco-porfolio.netlify.app/   
+Repository URL: https://github.com/solangeindaco/react-porfolio    
+Deployed application: https://solange-indaco-portfolio.netlify.app/   
 
 ## Usage
 
